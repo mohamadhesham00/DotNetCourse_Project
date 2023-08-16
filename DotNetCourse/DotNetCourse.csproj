@@ -13,6 +13,17 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNet.DataAccess\DotNet.DataAccess.csproj" />
+    <ProjectReference Include="..\DotNet.Models\DotNet.Models.csproj" />
+    <ProjectReference Include="..\DotNet.Utility\DotNet.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
