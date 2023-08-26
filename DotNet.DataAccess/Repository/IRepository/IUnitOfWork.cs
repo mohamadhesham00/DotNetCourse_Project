@@ -10,6 +10,7 @@ namespace DotNet.DataAccess.Repository.IRepository
     {
         public  ICategoryRepository category {  get; }
 
+        public IProductRepository product { get; }
         public void Save();
         
     }

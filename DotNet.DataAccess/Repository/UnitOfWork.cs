@@ -10,7 +10,9 @@ namespace DotNet.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public ICategoryRepository category { get; private set; } 
+        public ICategoryRepository category { get; private set; }
+
+        public IProductRepository product { get; private set; }
 
         private readonly ApplicationDbContext _db;
 
@@ -19,6 +21,7 @@ namespace DotNet.DataAccess.Repository
         {
             _db = db;
             category = new CategoryRepository(_db);
+            product = new ProductRepository(_db);
         }
         public void Save()
         {
