@@ -53,8 +53,7 @@ This project has been a great learning experience, exposing me to various key co
 ## Getting Started
 
 To run the E-Commerce Web App locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/e-commerce-web-app.git`
+1. Clone the repository: `git clone https://github.com/mohamadhesham00/E-commerce-web-app.git`
 2. Navigate to the project directory: `cd e-commerce-web-app`
 3. Open the solution in Visual Studio.
 4. Build and run the application.
